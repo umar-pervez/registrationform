@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <script src="https://kit.fontawesome.com/e43940be6f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="my.css">
+       
+        
+</head>
+<body class="class">
+
+<div class="register-container">
+    <h2 class="my-animation" style="text-align: center;">Register</h2>
+
+    <span class="twitter"><i class="fa-brands fa-square-twitter"></i></span>
+    <span class="facebook"><i class="fa-brands fa-facebook"></i></span>
+    <span class="google"><i class="fa-brands fa-google"></i></span>
+    <span class="linkedin"><i class="fa-brands fa-linkedin"></i></span>
+<br><br><br><br>
+    <form action="/submit_registration" method="post">
+        <input class="name" type="text" name="username" placeholder="Username" required>
+        <br>
+
+        <input class="email" type="email" name="email" placeholder="Email" required>
+        <br>
+
+
+        <input class="password" type='password' id='password' pattern='^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$'
+               title='Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters'
+               placeholder ='Password' required/>
+        <br/>
+
+        <input class="confirmword" type ='password' id = 'confirm_password' pattern = '^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$'
+              title = 'Please enter the same Password as above.'placeholder ='Confirm Password' required/>
+              <br/>
+
+        <p>By clicking register you agree to our <a href="#">terms of service</a></p>
+        <br>
+
+        <button type="submit" class="register"><b>REGISTER</b></button><br>
+    </form>
+</div>
+
+
+</body>
+</html>

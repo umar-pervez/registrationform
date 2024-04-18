@@ -1,0 +1,83 @@
+.class{background-color: aliceblue;}
+.register-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.register-container input[type="text"],
+.register-container input[type="email"],  
+.register-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.register-container button {
+   
+    width: 400px;
+    padding: 10px;
+    border-radius: 35px;
+    }
+.twitter{
+    font-size: 50px;  
+    color: #3ab0c5;
+    position: absolute;
+    left: 665px;
+}
+.facebook{font-size: 50px;  
+    color: #2e6dcc;
+    position: absolute;
+    left: 740px;
+}
+.google{font-size: 50px;  
+    color: #c22424;
+    position: absolute;
+    left: 815px;
+}
+.linkedin{font-size: 50px;  
+    color: #0077b5;
+    position: absolute;
+    left: 890px;
+}
+.register{
+    font-size: 1rem;
+    font-weight: 10;
+    padding: 0.5em 1em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 237, 237);
+    border: 3px solid #000000;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+.register:hover{
+    transform: translateY(-10px);
+    background-color: #000000;
+    color: rgb(255, 255, 255);}
+.my-animation {
+       
+        
+        position: relative;
+        animation: myAnimation 3s infinite alternate;
+}
+  
+@keyframes myAnimation {
+        50% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(20px);
+        }
+}
+
+.name:hover {color: #000000; transform: translateY(-5px); transition: 0.4s;}
+.email:hover{color: #000000; transform: translateY(-5px); transition: 0.4s;}
+.password:hover{color: #000000; transform: translateY(-5px); transition: 0.4s;}
+.confirmword:hover{color: #000000; transform: translateY(-5px); transition: 0.4s;}
+
+
+
+
+
+
